@@ -1,0 +1,44 @@
+{
+  "url": "https://blog.tavardt.com",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "localhost",
+      "user": "ghost_db_user_secure",
+      "password": "ELITE_HARDENED_PASSWORD_HERE",
+      "database": "ghost_db_prod"
+    }
+  },
+  "mail": {
+    "transport": "SMTP",
+    "options": {
+      "service": "Mailgun",
+      "host": "smtp.mailgun.org",
+      "port": 465,
+      "secureConnection": true,
+      "auth": {
+        "user": "postmaster@mg.tavardt.com",
+        "pass": "MAILGUN_SMTP_SECRET"
+      }
+    }
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ],
+    "level": "warn"
+  },
+  "process": "systemd",
+  "paths": {
+    "contentPath": "/var/www/ghost/content"
+  },
+  "privacy": {
+    "useRpcPing": false,
+    "useUpdateCheck": true
+  }
+}
