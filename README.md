@@ -3,13 +3,14 @@
 <div align="center">
   <p>Elite B2B Security & Operations Configurations for Ghost Publishing Platforms.</p>
   <p>
-    <a href="#-english">🇺🇸 English</a> | 
-    <a href="#-português">🇧🇷 Português</a>
+    <a href="#english">🇺🇸 English</a> | 
+    <a href="#português">🇧🇷 Português</a>
   </p>
 </div>
 
 ---
 
+<a id="english"></a>
 ## 🇺🇸 English
 
 ### High-Tier Publishing Infrastructure
@@ -31,6 +32,7 @@ Looking for elite B2B infrastructure and high-ticket digital engineering?
 
 ---
 
+<a id="português"></a>
 ## 🇧🇷 Português
 
 ### Infraestrutura de Publicação B2B
